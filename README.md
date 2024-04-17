@@ -47,7 +47,7 @@ Whether you are a developer interested in exploring image captioning techniques,
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/blip-image-captioning-api.git
+   git clone https://github.com/askaresh/blip-image-captioning-api.git
    ```
 
 2. Navigate to the project directory:
