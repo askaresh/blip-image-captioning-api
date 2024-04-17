@@ -25,7 +25,7 @@ def generate_caption(model, processor, image, text=None):
             inputs = processor(image, return_tensors="pt")
 
         # Generate the caption
-        out = model.generate(**inputs)
+        out = model.generate(**inputs, max_new_tokens=200)
         caption = processor.decode(out[0], skip_special_tokens=True)
         logger.info(f"Generated caption: {caption}")
 
